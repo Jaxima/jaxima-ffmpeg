@@ -62,6 +62,7 @@ if (has_nasm_deps) {
             platform_config_root,
             "libavcodec/x86",
             "libavutil/x86",
+            "libswscale/x86",
             ".",
         ]
 
