@@ -238,7 +238,7 @@
 %define HAVE_CUDA_H 0
 %define HAVE_DISPATCH_DISPATCH_H 0
 %define HAVE_DIRECT_H 0
-%define HAVE_DIRENT_H 1
+%define HAVE_DIRENT_H 0
 %define HAVE_DXGIDEBUG_H 0
 %define HAVE_DXVA_H 0
 %define HAVE_ES2_GL_H 0
