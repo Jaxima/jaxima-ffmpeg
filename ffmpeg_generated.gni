@@ -16,7 +16,7 @@ ffmpeg_nasm_include_dirs = []
 ffmpeg_c_deps = []
 ffmpeg_asm_deps = []
 
-use_linux_config = is_linux || is_chromeos || is_fuchsia
+use_linux_config = is_linux || is_chromeos || is_fuchsia || is_apple || is_win || is_android
 
 ffmpeg_asm_deps += [
   "libavcodec/x86/videodsp.asm",
