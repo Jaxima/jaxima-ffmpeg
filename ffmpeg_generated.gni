@@ -8,12 +8,7 @@ import("//build/config/arm.gni")
 import("ffmpeg_options.gni")
 
 # Declare empty versions of each variable for easier +=ing later.
-ffmpeg_c_sources = [
-  "libavcodec/autorename_libavcodec_motion_est_tables.c",
-  "libavformat/autorename_libavformat_img2.c",
-  "libavformat/autorename_libavformat_voc.c",
-  "libavformat/autorename_libavformat_voc_packet.c",
-]
+ffmpeg_c_sources = []
 ffmpeg_gas_sources = []
 ffmpeg_asm_sources = []
 ffmpeg_asm_include_dirs = []
