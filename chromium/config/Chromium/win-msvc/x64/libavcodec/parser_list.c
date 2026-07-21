@@ -1,8 +1,21 @@
-static const AVCodecParser * const parser_list[] = {
+static const FFCodecParser * const parser_list[] = {
+    &ff_aac_parser,
+    &ff_ac3_parser,
+    &ff_apv_parser,
+    &ff_av1_parser,
+    &ff_dca_parser,
+    &ff_dirac_parser,
+    &ff_evc_parser,
     &ff_flac_parser,
+    &ff_h264_parser,
+    &ff_hevc_parser,
+    &ff_mjpeg_parser,
+    &ff_mlp_parser,
+    &ff_mpeg4video_parser,
     &ff_mpegaudio_parser,
     &ff_opus_parser,
+    &ff_tak_parser,
     &ff_vorbis_parser,
-    &ff_vp3_parser,
     &ff_vp8_parser,
+    &ff_vp9_parser,
     NULL };
